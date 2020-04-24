@@ -2,6 +2,7 @@
 Detects Chinese text and displays an overlay with the corresponding pinyin, phrase translations and optionally a Google translation. Works on videos and anything else that can be visually captured from the screen.
 
 ![](screenshots/douyu.jpg)
+![](screenshots/video.jpg)
 
 ## Usage
 Prebuilt packages are made available for Windows that can be downloaded from the [Releases](https://github.com/RobinKa/Chinese-Overlay/releases) page. Windows 10 1709 and a DirectX 12 compatible GPU will be required to use the DirectML provider (basically a neural network runtime that leverages DirectX12 to run the OCR on all modern GPUs). Alternatively, the much slower CPU backend can be used or any of the other onnxruntime execution providers (eg. CUDA).
