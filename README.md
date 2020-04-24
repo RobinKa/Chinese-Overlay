@@ -4,7 +4,7 @@ Detects Chinese text and displays an overlay with the corresponding pinyin, phra
 ![](screenshots/douyu.jpg)
 
 ## Usage
-Prebuilt packages are made available for Windows that can be downloaded from the [Releases](/releases) page. Windows 10 1709 and a DirectX 12 compatible GPU will be required to use the DirectML provider (basically a neural network runtime that leverages DirectX12 to run the OCR on all modern GPUs). Alternatively, the much slower CPU backend can be used or any of the other onnxruntime execution providers (eg. CUDA).
+Prebuilt packages are made available for Windows that can be downloaded from the [Releases](https://github.com/RobinKa/Chinese-Overlay/releases) page. Windows 10 1709 and a DirectX 12 compatible GPU will be required to use the DirectML provider (basically a neural network runtime that leverages DirectX12 to run the OCR on all modern GPUs). Alternatively, the much slower CPU backend can be used or any of the other onnxruntime execution providers (eg. CUDA).
 To launch the overlay open any of the .bat files (eg. `overlay-pinyin.bat` or `overlay-google-trans.bat`). By default the overlay can toggled using the `F8` key. The translation overlay will be shown within the displayed window, which can also be resized to fit
 whatever region you want to translated. By default only the pinyin is shown which is obtained from a dictionary.
 The overlay can also be started by executing the program from the command line with the `ui` subcommand ´(`cli.exe ui`) which opens up more options that can be found by typing `cli.exe --help` and `cli.exe ui --help`.
