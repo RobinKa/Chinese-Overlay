@@ -54,7 +54,7 @@ async def get_ocr_results(ocr, image, max_height):
             pinyin_text = get_pinyin(orig_text)
             translations = get_all_phrase_translations(orig_text)
             translation_text = "\n".join(
-                ["%s: %s" % (t[0], ", ".join(t[1])) for t in translations])
+                ["%s (%s): %s" % (t[0], get_pinyin(t[0]), ", ".join(t[1])) for t in translations])
 
             position = (
                 int(sentence["position"][0] * image_to_screen[0]),
