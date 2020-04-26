@@ -29,6 +29,7 @@ class LabelManager:
         view.setSurfaceType(QSurface.OpenGLSurface)
 
         surface_format = QSurfaceFormat()
+        surface_format.setDepthBufferSize(1)
         surface_format.setAlphaBufferSize(8)
         surface_format.setRenderableType(QSurfaceFormat.OpenGL)
 
