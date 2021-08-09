@@ -28,7 +28,7 @@ pycryptodome==3.8.2
 PyInstaller==3.6
 PySide2==5.14.2
 pytictoc==1.5.0
-pywin32==227
+pywin32==301
 pywin32-ctypes==0.2.0
 requests==2.23.0
 scikit-inpaint==0.1.0
