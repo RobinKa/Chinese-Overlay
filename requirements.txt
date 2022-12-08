@@ -3,7 +3,7 @@ altgraph==0.17
 async-timeout==3.0.1
 attrs==19.3.0
 autopep8==1.5
-certifi==2019.11.28
+certifi==2022.12.7
 chardet==3.0.4
 click==7.1.1
 future==0.18.2
